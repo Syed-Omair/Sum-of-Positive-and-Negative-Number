@@ -1,0 +1,13 @@
+x=int(input("Enter the Number:"))
+sum=0
+sum1=0
+while(x!=0):
+    if(x>0):
+        sum+=x
+        x=int(input("Enter the Number:"))
+    elif(x<0):
+        sum1+=x
+        x=int(input("Enter the Number:"))
+    
+print("The sum of positive Numbers are:",sum)
+print("The sum of Negative Numbers are:",sum1)
